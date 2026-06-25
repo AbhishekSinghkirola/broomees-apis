@@ -35,3 +35,9 @@ php artisan test
 ## API Documentation
 
 [https://documenter.getpostman.com/view/52634124/2sBXwwooJJ](https://documenter.getpostman.com/view/52634124/2sBXwwooJJ)
+
+## Architecture
+- Using MVC Pattern
+- Using Services for Bussiness logic and make controllers clean so they can only handle http request
+- Using Requests for validations
+- using middlewares for authentication and for rate limit
